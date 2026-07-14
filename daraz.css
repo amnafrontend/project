@@ -1,0 +1,383 @@
+ /* HEADER*/
+ *{
+    margin:0;
+    padding:0;
+}
+
+
+.main{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background: linear-gradient( #FE2C54,#ffffff);
+
+}
+
+.logo{
+     
+   
+     font-weight: bolder;
+     
+}
+.list{
+    height: 60px;
+    width: 50%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+     padding-left: 100px;
+     padding-top: 0px;
+}
+ul{
+    width: 100%;
+    font-size: 22px;
+    font-weight: lighter;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    height: 60px;
+    width: 30%;
+    color: white;
+    padding-left: 200px;
+    padding-top: 0px;
+    padding-right: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+ /* HERO SECTION*/
+ 
+ .banner{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    gap: 0px;
+   
+    background: linear-gradient(#d89fae, #f9d3dc) ;
+   
+    
+ }
+ .right img{
+    height: 400px;
+    width: 400px;
+    padding-top: 0px;
+    padding-left: 120px;
+ }
+ .left img{
+    height: 300px;
+    width: 300px;
+    padding-left: 40px;
+    padding-top: 50px;
+ }
+ .center{
+    padding-top:60px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: space-between;
+    padding-left: 80px;
+
+ }
+ .center h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+
+
+ }
+ .center p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+ }
+ .center button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+   
+ }
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+ 
+ /* PRODUCT*/
+ .product{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    
+ }
+ .product h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 40%;
+    padding-top: 30px;
+
+ }
+ .product p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+      padding-left: 38%;
+      color: rgb(84, 80, 80);
+
+ }
+
+     
+
+
+
+
+
+
+/* DIVES*/
+        #daraz{
+          display: flex;
+           flex-wrap: wrap;
+            gap: 28px;
+            margin-left: 35px;
+            padding-top: 50px;
+            padding-bottom: 80px;
+            
+        }
+    
+
+        .card{
+            width:250px;
+            height: 350px;
+            border:2px solid #ccc;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 2px 5px rgba(0,0,0,0.2);
+            margin-left: 10px; 
+               
+        }
+
+        .card img{
+            width:250px;
+            height:auto;
+            object-fit:contain;
+            padding-left: 0px;
+            
+        }
+
+        .card h3{
+            margin-top:10px;
+            font-size: 18px;
+            text-align: left;
+            padding-left: 10px;
+
+        }
+        .card h4{
+            color: red;
+             text-align: left;
+            padding-left: 10px;
+
+        }
+        .rating{
+            color: black;
+            font-weight: bolder;
+            font-size: 15px;
+             text-align: left;
+            padding-left: 10px;
+}
+
+
+
+
+
+
+
+/* TOOLS*/
+ .tool{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    
+ }
+ .tool h1{
+    font-size: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 39%;
+    padding-top: 30px;
+ }
+ .tool p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+      padding-left: 38%;
+      color: rgb(84, 80, 80);
+       padding-left: 37%;
+
+ }
+
+
+
+
+
+
+
+
+/* Temu*/
+#temu{
+          display: flex;
+           flex-wrap: wrap;
+            gap: 28px;
+            margin-left: 35px;
+            padding-top: 50px;
+            padding-bottom: 80px;
+            
+        }
+    
+
+        .div{
+            width:250px;
+            height: 350px;
+            border:2px solid #ccc;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 2px 5px rgba(0,0,0,0.2);
+            margin-left: 10px; 
+               
+        }
+
+        .div img{
+            width:250px;
+            height:auto;
+            object-fit:contain;
+            padding-left: 0px;
+            
+        }
+
+        .div h3{
+            margin-top:10px;
+            font-size: 20px;
+            text-align: left;
+            padding-left: 10px;
+
+        }
+        .div h4{
+            color: red;
+             text-align: left;
+            padding-left: 10px;
+            font-size: 20px;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THANKS*/
+.thanks{
+    height: 100px;
+    width: 100%;
+  text-align: center;
+  padding-bottom: 300px;
+  background-color: #ffe6e6;
+  
+}
+
+.thanks h1{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #222;
+  font-size: 40px;
+  padding-top: 120px;
+  
+}
+
+.thanks p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+ }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+/* FOOTER*/
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+height: 80px;
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+background: linear-gradient(#ffffff, #FE2C54);
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+ 
+}
+
+
+
+.copy{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ddd;
+}  
